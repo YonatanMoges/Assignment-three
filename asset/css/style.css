@@ -1,5 +1,5 @@
 body{
-    background-color: skyblue;
+    background-color: white;
     border: solid 10px lightgrey;
     margin: 10px;
 }
@@ -51,7 +51,7 @@ head{
     font-style: italic;
     position: relative
     
-    border-bottom: white;
+    border-bottom: black;
     padding-bottom: 2px;
 }
 img{
@@ -59,4 +59,15 @@ img{
     width: 400px;
     height: 300px;
     margin: 1.67%;
+}
+form{
+    margin: 50px;
+    border: dotted 1px green;
+}
+.label{
+    padding: 10px;
+}
+.class2{
+    padding-bottom: 5px;
+    border: 1px dotted;
 }
