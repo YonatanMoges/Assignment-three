@@ -60,6 +60,7 @@ img{
     margin: 1.67%;
 }
 form{
+    
     margin: 50px;
     border: dotted 1px green;
 }
@@ -69,4 +70,13 @@ form{
 .class2{
     padding-bottom: 5px;
     border: 1px dotted;
+}
+form[method="POST"]{
+    position: relative;
+    left: 10px;
+    margin-bottom: 20px;
+}
+input[type="submit"]{
+    width: 100px;
+    height: 30px;
 }
